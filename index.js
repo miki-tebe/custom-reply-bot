@@ -21,4 +21,4 @@ bot.on('text', (ctx)=>{
 
 bot.launch()
    .then(() => console.log("Bot Launched"))
-   .catch(console.log);
+   .catch((err) => console.log(err));
